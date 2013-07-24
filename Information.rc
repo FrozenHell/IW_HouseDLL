@@ -1,0 +1,40 @@
+// -------------------------------------------------------------------------
+#include <windows.h>
+
+//
+// Version Information resources
+//
+LANGUAGE 0, SUBLANG_NEUTRAL
+1 VERSIONINFO
+	FILEVERSION    1,0,0,0
+	PRODUCTVERSION 1,0,0,0
+	FILEOS        VOS_NT
+	FILETYPE        VFT_DLL
+	FILESUBTYPE    VFT2_UNKNOWN
+	FILEFLAGSMASK 0x00000000
+	FILEFLAGS    0x00000000
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "08000025"
+		{
+			//VALUE "Comments", "Some Comments"
+			//VALUE "CompanyName", "My Company"
+			VALUE "FileDescription", "HouseBuilder Dynamic Link Library"
+			VALUE "FileVersion", "1.0.0.0"
+			//VALUE "InternalName", "My InternalProduct Name"
+			VALUE "LegalCopyright", "Copyright 2013 Grebnev Pavel. All Rights Reserved"
+			//VALUE "LegalTrademarks", "Some Trademarks"
+			VALUE "OriginalFilename", "house.dll"
+			//VALUE "PrivateBuild", ""
+			VALUE "ProductName", "HouseBuilder"
+			//VALUE "ProductVersion", "1.0.0.0"
+			//VALUE "SpecialBuild", ""
+		}
+	}
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 0x0800, 0x0025
+	}
+}
+// -------------------------------------------------------------------------
